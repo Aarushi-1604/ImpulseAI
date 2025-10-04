@@ -1,0 +1,5 @@
+# Force all text files to use LF in repo
+* text=auto
+
+# Ignore node_modules entirely
+node_modules/** text eol=lf

@@ -9,7 +9,7 @@ import { Separator } from '../ui/separator';
 import { Badge } from '../ui/badge';
 import { Settings, Bell, Shield, Download, Trash2, Save, Moon, Sun } from 'lucide-react';
 import { ConfirmationDialog } from '../popups/ConfirmationDialog';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface UserSettingsProps {
   user: { name: string; email: string };

@@ -4,7 +4,7 @@ import { RegisterPage } from './components/auth/RegisterPage';
 import { WelcomePage } from './components/WelcomePage';
 import { Dashboard } from './components/dashboard/Dashboard';
 import { Toaster } from './components/ui/sonner';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface User {
   name: string;

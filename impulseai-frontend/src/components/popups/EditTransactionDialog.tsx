@@ -9,7 +9,7 @@ import { Calendar } from '../ui/calendar';
 import { Popover, PopoverContent, PopoverTrigger } from '../ui/popover';
 import { Switch } from '../ui/switch';
 import { CalendarIcon, Save, X, Info } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface Transaction {
   id: string;

@@ -11,7 +11,7 @@ import { Popover, PopoverContent, PopoverTrigger } from '../ui/popover';
 import { Switch } from '../ui/switch';
 import { CalendarIcon, Plus, Trash2, Edit3, Save, Info } from 'lucide-react';
 import { ConfirmationDialog } from '../popups/ConfirmationDialog';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface Transaction {
   id: string;

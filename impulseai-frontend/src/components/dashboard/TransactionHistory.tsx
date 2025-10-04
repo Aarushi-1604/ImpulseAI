@@ -23,7 +23,7 @@ import {
   Calendar,
   CalendarX
 } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { EditTransactionDialog } from '../popups/EditTransactionDialog';
 import { BulkDeleteDialog } from '../popups/BulkDeleteDialog';
 import { ConfirmationDialog } from '../popups/ConfirmationDialog';
@@ -77,7 +77,9 @@ export function TransactionHistory({
 
   // Get unique categories for filter dropdown
   const categories = useMemo(() => {
-    const cats = [...new Set(transactions.map(t => t.category))].filter(Boolean).sort();
+    const cats = Array.from(
+  new Set((transactions ?? []).map((t: any) => t.category))
+).filter(Boolean).sort();
     return cats;
   }, [transactions]);
 
