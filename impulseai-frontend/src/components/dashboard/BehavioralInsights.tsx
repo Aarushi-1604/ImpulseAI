@@ -6,7 +6,7 @@ import { Textarea } from '../ui/textarea';
 import { Progress } from '../ui/progress';
 import { Heart, Brain, TrendingUp, AlertTriangle, Target, Lightbulb, Calendar, Save, Plus, Edit3 } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface Transaction {
   id: string;

@@ -12,7 +12,7 @@ import { TransactionHistory } from './TransactionHistory';
 import { UserSettings } from './UserSettings';
 import { TransactionReceipt } from '../popups/TransactionReceipt';
 import { BudgetAlert } from '../popups/BudgetAlert';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface Transaction {
   id: string;

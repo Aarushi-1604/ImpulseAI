@@ -10,7 +10,7 @@ interface UploadAreaProps {
   onDragOver: (e: React.DragEvent) => void;
   onDrop: (e: React.DragEvent) => void;
   onFileSelect: () => void;
-  fileInputRef: React.RefObject<HTMLInputElement>;
+  fileInputRef: React.RefObject<HTMLInputElement | null>;
   onFileInput: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
